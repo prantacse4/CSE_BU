@@ -1,0 +1,132 @@
+body{
+	 background: url(cover.jpg) no-repeat center center fixed; 
+ -webkit-background-size: cover;
+ -moz-background-size: cover;
+ -o-background-size: cover;
+ background-size: cover;
+ background-attachment:fixed;
+	margin: 0px;
+	padding: 0px;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: 
+    rgb(255, 247, 247);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(0,0,0,.7);
+}
+.navbar1{
+	font-family: 'Open Sans', sans-serif;
+	height: 50.6667px;
+	min-height: 50.6667px;
+	color:white;
+}
+
+.navbar1 .navbar-brand{
+	font-weight: bold;
+letter-spacing: 1px;
+
+}
+ .navbar1 .nav-link{
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	margin-right: 9px;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    background: #8c0f16;
+	transition:.8s;
+	border-radius: 6px;
+	color: white;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: 
+    rgb(193, 54, 0);
+}
+
+.navbar2{
+	font-family: 'Roboto', sans-serif;
+	
+	height: 55.75px;
+	min-height: 55.75px;
+box-shadow: 0 0 10px rgba(0,0,0,.15),0 3px 3px rgba(0,0,0,.15);
+	
+}
+.navbar2 .nav-link{
+	font-size: 22px;
+	margin-right: 8px;
+}
+
+.navbar2 a {
+  position: relative;
+  margin: 15px;
+  margin-right: 15px;
+
+}
+.navbar2 a:hover{
+	color:red;
+}
+.navbar2 a:after {
+  content: '';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  height: 3px;
+  width: 0;
+  background: transparent;
+}
+.navbar2 .nav-link:after {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 3px;
+  background: #FDB02C;
+  
+  transition: transform .5s ease;
+  transform: scaleX(0);
+}
+.navbar2 .nav-link:hover:after {
+  transform: scaleX(1);
+  color:#b1040e;
+
+}
+
+
+#footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+   height:55.667px;   
+   font-family: 'Roboto', sans-serif;
+   color: white;
+   background-color: #b1040e;
+}
+#footer h3{
+  margin-top: 7px;
+}
+
+#university{
+position: absolute;
+bottom: 31%;
+width: 100%;
+color:
+white;
+font-weight: bold;
+
+}
+.h1{
+  font-family: 'Heebo', sans-serif;
+  font-size: 4vw;
+  font-weight: bold;
+  text-shadow: -4px 8px 6px rgba(43, 43, 43, 0.75);
+}
+
+
+.content{
+  background-color: white;
+}
+.content h1{
+  color: black;
+}
